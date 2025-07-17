@@ -64,9 +64,6 @@ df_review = pd.read_csv("https://raw.githubusercontent.com/FTDS-assignment-bay/p
 # Load model Word2Vec
 w2v_model = Word2Vec.load("w2v_model.model")
 
-# Convert kolom 'spect' dari string ke list (kalau datanya serialized list)
-if isinstance(df['spect'].iloc[0], str):
-    df['spect'] = df['spect'].apply(eval)
 
 # Simpan vektor spesifikasi produk (supaya nggak dihitung ulang tiap pencarian)
 df['spect_vector'] = df['spect'].apply(lambda x: get_sentence_vector(x, w2v_model))
