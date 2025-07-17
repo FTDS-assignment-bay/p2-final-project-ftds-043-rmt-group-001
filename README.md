@@ -1,8 +1,14 @@
+<h3 style="text-align: center;">
+        <img src="https://readme-typing-svg.herokuapp.com/?font=Winky+Rough&weight=700&color=0047AB&size=50&center=true&vCenter=true&width=1000&height=70&duration=3000&lines=Hai!+Welcome+to+SWARM!;">
+    </h3>
+
+---
+
 # SWARM - Smart Watch Application Recomendation Model
 
-<div style="text-align: center;">
-  <img src="./images/logo.png" alt="Deskripsi" width="350" height="350">
-</div>
+<p align="center">
+  <img src="./logo.png" width=400 align="center">
+</p>
 
 
 **SWARM**  adalah aplikasi yang dapat memberikan rekomendasi kepada pengguna untuk menentukan jenis Smart Watch / jam tangan yang paling cocok berdasarkan spesifikasi dan kebutuhan pelanggan. SWARM memerikan rekomendasi berdasarkan masukan teks yang diberikan pengguna dan membandingkan dengan reviews dari pembeli sebelumnya untuk menentukan produk yang paling sesuai dengan keinginan pelanggan.
