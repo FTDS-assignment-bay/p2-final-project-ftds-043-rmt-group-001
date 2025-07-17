@@ -1,6 +1,6 @@
 # SWARM - Smart Watch Application Recomendation Model
 
-![SWARM](./logo.png)
+<img src="./logo.png" alt="SWARM" width="300" height="200">
 
 **SWARM**  adalah aplikasi yang dapat memberikan rekomendasi kepada pengguna untuk menentukan jenis Smart Watch / jam tangan yang paling cocok berdasarkan spesifikasi dan kebutuhan pelanggan. SWARM memerikan rekomendasi berdasarkan masukan teks yang diberikan pengguna dan membandingkan dengan reviews dari pembeli sebelumnya untuk menentukan produk yang paling sesuai dengan keinginan pelanggan.
 
@@ -52,6 +52,7 @@ Data set reviews terdiri dari 3 kolom dan 1104 baris data
 
 Pada project ini terdapat beberapa proses pengolahan dan analisis data untuk mengembangkan sebuah model rekomendasi dan report analisis data berdasarkan objective yang ditentukan. Tahapan proses tersebut antara lain:
 
+```
 1. **ETL** : Proses Akuisisi Data
     ├── Scraping Data
     ├── Data Cleaning
@@ -70,13 +71,13 @@ Pada project ini terdapat beberapa proses pengolahan dan analisis data untuk men
     ├── Model Training (Cosine Similarity)
     ├── Model Deployment (Streamlit)
     └── Model Evaluation (USEQuesionnaire)
+```
 
 ## 🛠️ Stack
 
 Dalam pembuatan project ini terdapat beberapa tools atau library yang digunakan, yaitu:
 
-| Programming Language |
-| No | Tools |
+| No | Programming Language |
 | --- | --- |
 | 1 | Python |
 | 2 | SQL | 
