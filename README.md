@@ -8,7 +8,7 @@ SWARM - Smart Watch Application Recomendation Model
 </h1>
 
 <p align="center">
-  <img src="./logo.png" width=400 align="center">
+  <img src="./images/logo.png" width=400 align="center">
 </p>
 
 
