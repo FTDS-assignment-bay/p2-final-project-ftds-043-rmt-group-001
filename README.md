@@ -119,3 +119,4 @@ https://public.tableau.com/app/profile/mustika.tri.utami/viz/FinalProject_175265
 Hasil analisis data dan rekomendasi yang diberikan dapat diakes pada link berikut: \
 https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/blob/main/eda.ipynb
 
+## Project Outline
