@@ -1,13 +1,11 @@
 import streamlit as st
 
-# Panggil set_page_config langsung setelah import streamlit
 st.set_page_config(
     page_title='Swarm App',
     layout='wide',
     initial_sidebar_state='expanded'
 )
 
-import streamlit as st
 import eda
 import finder
 
