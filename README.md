@@ -1,6 +1,9 @@
 # SWARM - Smart Watch Application Recomendation Model
 
-<img src="./logo.png" alt="SWARM" width="300" height="200">
+<div style="text-align: center;">
+  <img src="./logo.png" alt="Deskripsi" width="350" height="350">
+</div>
+
 
 **SWARM**  adalah aplikasi yang dapat memberikan rekomendasi kepada pengguna untuk menentukan jenis Smart Watch / jam tangan yang paling cocok berdasarkan spesifikasi dan kebutuhan pelanggan. SWARM memerikan rekomendasi berdasarkan masukan teks yang diberikan pengguna dan membandingkan dengan reviews dari pembeli sebelumnya untuk menentukan produk yang paling sesuai dengan keinginan pelanggan.
 
@@ -82,5 +85,37 @@ Dalam pembuatan project ini terdapat beberapa tools atau library yang digunakan,
 | 1 | Python |
 | 2 | SQL | 
 
+| No | Library | Fungsi |
+| --- | --- | --- |
+| 1 | Pandas | Mengolah data |
+| 2 | Numpy | Perhitungan matematis |
+| 3 | Seaborn | Visualisasi Data |
+| 4 | Wordcloud | Visualisasi Kata |
+| 5 | NLTK | Text Pre-processing |
+| 6 | SK-Learn | Modelling |
+| 7 | Gensim | Vectorization |
+| 8 | Streamlit | Deployment |
+| 9 | ScraperAPI | Data Scraping |
+| 10 | BS4 | Data Scraping |
+
+| No | Tools | Fungsi |
+| --- | --- | --- |
+| 1 | VSCode | Text Editor |
+| 2 | Huggin Face | Model Deployment |
+| 3 | Tableau | Visualisasi Data |
+
 ## 🚀 Result
+Berdasarkan objective yang sudah ditentukan, project ini menghasilkan beberapa dokumen atau halaman yang dapat digunakan oleh pengguna. Hasil yang didapatkan dari project ini antara lain
+
+1. Aplikasi Rekomendasi Smart Watch (SWARM)
+Aplikasi ini diluncurkan pada website Hugging Face dan dapat diakses melalui link berikut: \
+https://huggingface.co/spaces/anismarsela32/swarm-app
+
+2. Visualisasi Data
+Hasil visualisasi data dari dataset yang didapatkan dapat diakses pada link berikut : \
+https://public.tableau.com/app/profile/mustika.tri.utami/viz/FinalProject_17526552446080/Dashboard1?publish=yes
+
+3. Notebook Hasil Analisis
+Hasil analisis data dan rekomendasi yang diberikan dapat diakes pada link berikut: \
+https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/blob/main/eda.ipynb
 
