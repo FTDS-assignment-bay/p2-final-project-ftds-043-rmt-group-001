@@ -1,7 +1,7 @@
 # SWARM - Smart Watch Application Recomendation Model
 
 <div style="text-align: center;">
-  <img src="./logo.png" alt="Deskripsi" width="350" height="350">
+  <img src="./images/logo.png" alt="Deskripsi" width="350" height="350">
 </div>
 
 
@@ -56,18 +56,18 @@ Data set reviews terdiri dari 3 kolom dan 1104 baris data
 Pada project ini terdapat beberapa proses pengolahan dan analisis data untuk mengembangkan sebuah model rekomendasi dan report analisis data berdasarkan objective yang ditentukan. Tahapan proses tersebut antara lain:
 
 ```
-1. **ETL** : Proses Akuisisi Data
+1. ETL : Proses Akuisisi Data
     ├── Scraping Data
     ├── Data Cleaning
     ├── Data Saving
     └── Data Testing (Great Expectation)
 
-2. **Data Analysis** : Proses Analisis Data untuk membuat visualisasi dan mendapatkan insight
+2. Data Analysis : Proses Analisis Data untuk membuat visualisasi dan mendapatkan insight
     ├── Data Exploration
     ├── Data Visualization
     └── Report
 
-3. **Modelling** : Proses membuat model aplikasi rekomendasi smarwatch
+3. Modelling : Proses membuat model aplikasi rekomendasi smarwatch
     ├── Text Pre-processing
     ├── Data Transformation
     ├── Model Definition (Word2Vec)
@@ -111,6 +111,10 @@ Berdasarkan objective yang sudah ditentukan, project ini menghasilkan beberapa d
 Aplikasi ini diluncurkan pada website Hugging Face dan dapat diakses melalui link berikut: \
 https://huggingface.co/spaces/anismarsela32/swarm-app
 
+Contoh tampilan aplikasi
+
+![Streamlit](./images/streamlit.PNG)
+
 2. Visualisasi Data
 Hasil visualisasi data dari dataset yang didapatkan dapat diakses pada link berikut : \
 https://public.tableau.com/app/profile/mustika.tri.utami/viz/FinalProject_17526552446080/Dashboard1?publish=yes
@@ -119,4 +123,11 @@ https://public.tableau.com/app/profile/mustika.tri.utami/viz/FinalProject_175265
 Hasil analisis data dan rekomendasi yang diberikan dapat diakes pada link berikut: \
 https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/blob/main/eda.ipynb
 
-## Project Outline
+
+## 🧠 Project Member
+| Nama | Role | Contact |
+| --- | --- | --- |
+| Ilham Wahdini | Data Engineer | [email](ilhamwahdini8@gmail.com) |
+| Mustika Tri U. | Data Analyst | 
+| Pujo Prasetyo Aji | Data Scientist 1 | [email](anismarsela36854@gmail.com) |
+| Anis Marsela | Data Scientist 2 | [email](pujo.prasetyoaji@gmail.com) |
