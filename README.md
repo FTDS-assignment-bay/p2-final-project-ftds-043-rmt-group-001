@@ -3,8 +3,9 @@
     </h3>
 
 ---
-
+<h1 align="center">
 # SWARM - Smart Watch Application Recomendation Model
+</h1>
 
 <p align="center">
   <img src="./logo.png" width=400 align="center">
