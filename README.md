@@ -139,5 +139,14 @@ https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/b
 | Pujo Prasetyo Aji | Data Scientist 1 | [email](mailto:anismarsela36854@gmail.com) |
 | Anis Marsela | Data Scientist 2 | [email](mailto:pujo.prasetyoaji@gmail.com) |
 
+
+## Presentation Slide
+<p align="center">
+  <a href="[https://docs.google.com/presentation/d/1yqnWS0_rFodCCpznPpe371GJPvokvVoJ/edit#slide=id.p1](https://docs.google.com/presentation/d/1h3F-7WL4LahBvgedvbazzHcyuyejFFJI20ibEu_93VI/edit?slide=id.g36dfac3f432_0_16#slide=id.g36dfac3f432_0_16)">
+    <img src="https://images.fonearena.com/blog/wp-content/uploads/2018/10/Google-Slides-e1539062763406.jpg" alt="Google Slides" width="70" height="70">
+  </a>
+</p>
+
+Here is the slide deck we used for our project presentation!
 ---
 
