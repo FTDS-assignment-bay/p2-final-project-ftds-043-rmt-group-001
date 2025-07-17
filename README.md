@@ -4,7 +4,7 @@
 
 ---
 <h1 align="center">
-# SWARM - Smart Watch Application Recomendation Model
+SWARM - Smart Watch Application Recomendation Model
 </h1>
 
 <p align="center">
