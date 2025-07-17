@@ -127,7 +127,7 @@ https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/b
 ## 🧠 Project Member
 | Nama | Role | Contact |
 | --- | --- | --- |
-| Ilham Wahdini | Data Engineer | [email](ilhamwahdini8@gmail.com) |
-| Mustika Tri U. | Data Analyst | 
-| Pujo Prasetyo Aji | Data Scientist 1 | [email](anismarsela36854@gmail.com) |
-| Anis Marsela | Data Scientist 2 | [email](pujo.prasetyoaji@gmail.com) |
+| Ilham Wahdini | Data Engineer | [email](mailto:ilhamwahdini8@gmail.com) |
+| Mustika Tri U. | Data Analyst | email |
+| Pujo Prasetyo Aji | Data Scientist 1 | [email](mailto:anismarsela36854@gmail.com) |
+| Anis Marsela | Data Scientist 2 | [email](mailto:pujo.prasetyoaji@gmail.com) |
