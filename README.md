@@ -140,6 +140,3 @@ https://github.com/FTDS-assignment-bay/p2-final-project-ftds-043-rmt-group-001/b
 
 ---
 
-<h3 style="text-align: center;">
-        <img src="https://readme-typing-svg.herokuapp.com/?font=Winky+Rough&weight=700&color=0047AB&size=50&center=true&vCenter=true&width=1000&height=70&duration=3000&lines=Thanks, For+Visiting+Our+Project;">
-</h3>
