@@ -45,6 +45,13 @@ def run():
     )
     ax.set_title('Brand Distribution of Smartwatches', fontsize=16, fontweight='bold')
     st.pyplot(fig)
+    st.markdown("""
+    **Insight:** Brand Distribution of Smartwatches
+    
+    Dalam analisis distribusi merek smartwatch, terlihat bahwa **Apple Watch** mendominasi pasar dengan porsi hampir **30%** dari total produk. Hal ini menegaskan posisinya sebagai pemimpin pasar dalam kategori smartwatch.Di posisi kedua, **Samsung** mencatat sekitar **24%**, juga menunjukkan popularitas tinggi dan cakupan produk yang luas.
+    
+    Sementara itu, merek lain seperti **Garmin**, **Fitbit**, dan **Huawei** memiliki distribusi yang seimbang, berkisar antara **9% hingga 11%**. Di sisi lain, brand seperti **Xiaomi** dan **Google** menyumbang porsi yang jauh lebih kecil—masing-masing di bawah **5%**—menandakan bahwa mereka masih memiliki ruang untuk ekspansi lebih lanjut dalam pasar ini.
+    """)
 
 
     # 2️⃣ Rata-rata Harga per Brand
@@ -64,6 +71,11 @@ def run():
     plt.xticks(rotation=45)
     plt.tight_layout()
     st.pyplot(fig2)
+    st.markdown("""
+    **Insight:** 
+    
+    Jika kita meninjau dari segi harga rata-rata per merek, Garmin menonjol dengan harga tertinggi di antara semua brand, bahkan lebih dari $500. Ini menunjukkan bahwa Garmin memosisikan produknya di segmen premium. Huawei dan Apple Watch juga tergolong mahal, berada di kisaran atas. Sebaliknya, Xiaomi menjadi brand dengan harga paling terjangkau
+    """)
 
     # 3️⃣ Rata-rata Rating per Brand
     st.markdown("### 3️⃣ **Average Rating per Brand**")
@@ -82,6 +94,12 @@ def run():
     plt.xticks(rotation=45)
     plt.tight_layout()
     st.pyplot(fig3)
+    st.markdown("""
+    **Insight:** 
+    
+    Dalam grafik rating pengguna rata-rata, justru Huawei mencatatkan skor tertinggi, diikuti oleh Garmin dan Xiaomi. Artinya, meskipun Xiaomi lebih murah, pengguna tetap memberikan rating tinggi, yang menunjukkan kepuasan terhadap fitur dan kualitasnya. Sebaliknya, Google justru memperoleh rating rata-rata terendah di antara brand lainnya. Meskipun membawa nama besar, produk dari Google tampaknya belum sepenuhnya memenuhi harapan pengguna, sebagaimana tercermin dalam rating yang diberikan
+    """)
+
 
 
     # 4. Top 5 Connectivity
@@ -101,6 +119,11 @@ def run():
     ax4.set_ylabel('Connectivity Type')
     plt.tight_layout()
     st.pyplot(fig4)
+    st.markdown("""
+    **Insight:** 
+    
+    Dari sisi konektivitas, fitur Bluetooth hampir hadir di semua produk, menjadi standar konektivitas utama. Sedangkan fitur seperti Wireless, Wi-Fi, dan USB tersedia dalam jumlah menengah. Menariknya, GPS—yang sering diandalkan untuk pelacakan aktivitas luar ruangan—hanya tersedia di sedikit produk, menjadikannya fitur yang cukup premium.
+    """)
 
     # 5. Korelasi antara Price - Screen Size - Rating
     st.markdown("### 5️⃣ **Correlation Between Price, Screen Size, and Rating**")
@@ -111,6 +134,12 @@ def run():
     sns.heatmap(df[['price', 'screen_size', 'rating']].corr(), annot=True, cmap='coolwarm', linewidths=0.5, fmt=".2f", ax=ax5)
     ax5.set_title('Correlation Heatmap', fontsize=14, fontweight='bold')
     st.pyplot(fig5)
+    st.markdown("""
+    **Insight:** 
+    
+    Berdasarkan heatmap korelasi di atas, terlihat bahwa hubungan antar variabel price, screen\_size, dan rating tergolong sangat lemah. Korelasi antara harga dan rating hanya 0.11, menunjukkan hampir tidak ada hubungan signifikan — artinya, smartwatch yang lebih mahal belum tentu mendapatkan rating yang lebih tinggi. Menariknya, screen\_size memiliki korelasi negatif terhadap rating sebesar -0.27, yang mungkin mengindikasikan bahwa pengguna justru cenderung memberi rating lebih rendah pada smartwatch dengan ukuran layar lebih besar, entah karena tidak nyaman, terlalu besar di pergelangan tangan. Secara keseluruhan, insight ini menunjukkan bahwa faktor-faktor seperti harga dan ukuran layar belum tentu menjadi penentu utama bagi user satisfaction.
+
+    """)
 
 
 
@@ -131,6 +160,10 @@ def run():
     ax6.set_ylabel('Feature')
     plt.tight_layout()
     st.pyplot(fig6)
+    st.markdown("""
+    **Insight:** 
+    Untuk fitur smartwatch secara umum, GPS, activity tracker, dan heart rate monitor menjadi fitur yang paling umum ditemukan. Ini menunjukkan fokus industri pada kesehatan dan kebugaran pengguna. Di sisi lain, fitur seperti voice control dan phone call masih jarang diimplementasikan, kemungkinan karena tidak semua pengguna membutuhkan fitur tersebut.
+    """)
 
 
     # 7️⃣ Sentiment Distribution
@@ -160,6 +193,10 @@ def run():
     )
     ax7.set_title('Sentiment Breakdown from Reviews', fontsize=14, fontweight='bold')
     st.pyplot(fig7)
+    st.markdown("""
+    **Insight:** 
+    Terakhir, dari analisis sentimen review pengguna, dapat disimpulkan bahwa pengalaman pengguna terhadap produk sangat positif. Lebih dari 86% review bersifat positif, sedangkan review negatif hanya sekitar 10%, dan netral sekitar 3.5%. Ini mencerminkan kepuasan umum terhadap smartwatch yang ada dalam dataset, baik dari segi performa, fitur, maupun kualitas.
+    """)
 
 
     # === Wordcloud Function ===
